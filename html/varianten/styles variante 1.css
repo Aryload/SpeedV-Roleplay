@@ -1,0 +1,159 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #333333;
+    padding: 10px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #444444;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #666666;
+}
+
+main {
+    padding: 20px 0;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Stile für Kontaktformular */
+.contact-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button.button {
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.button:hover {
+    background-color: #444444;
+}
+
+/* Stile für den "Jetzt Beitreten" Button */
+a.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+a.button:hover {
+    background-color: #0056b3;
+}
+
+.logo {
+    width: 100px; /* Breite des Logos anpassen */
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Zentriert das Logo */
+}
+
+/* Stile für den Serverstatus */
+.status-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Hintergrundfarbe anpassen */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status-icon {
+    margin-right: 20px;
+}
+
+.status-icon img {
+    width: 100px; /* Größe der Icon-Bilder erhöhen */
+    height: 100px;
+    object-fit: contain; /* Skalierungsoption für Bilder */
+}
+
+.status-text {
+    font-size: 20px; /* Textgröße erhöhen */
+    font-weight: bold; /* Fettschrift hinzufügen */
+    text-transform: uppercase; /* Text in Großbuchstaben */
+}
+
+.status-online {
+    color: #28a745; /* Grüne Farbe für Online-Status */
+}
+
+.status-offline {
+    color: #dc3545; /* Rote Farbe für Offline-Status */
+}
