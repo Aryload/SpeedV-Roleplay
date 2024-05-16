@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedV Roleplay - GTA RP Server</title>
+    <link rel="stylesheet" href="html/styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="html/status.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Willkommen auf SpeedV Roleplay</h1>
+            <p>Ihr ultimativer GTA-RP-Server</p>
+            <img src="html/assets/img/logo.png" alt="SpeedV Roleplay Logo" class="logo">
+        </div>
+    </header>    
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">Über uns</a></li>
+            <li><a href="regelwerk.html">Regelwerk</a></li>
+            <li><a href="join.html">Join Us</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <h2>Willkommen auf SpeedV Roleplay</h2>
+        <p>Erleben Sie den Nervenkitzel des GTA V-Rollenspiels auf unserem Server.</p>
+        <a href="https://www.youtube.com" class="button" target="_blank">Jetzt Beitreten</a>
+    </main>    
+    
+    <section class="container">
+        <h2>Server Status</h2>
+        <div id="serverStatus" class="status-container">
+            <div class="status-icon">
+                <img id="statusIcon" src="html/assets/img/offline.png" alt="Server Offline">
+            </div>
+            <div class="status-text">
+                <p>Der Server ist derzeit offline.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <h2>Top-Spieler</h2>
+        <ul>
+            <li>1. Aaron | SVRP - Platz 1</li>
+            <li>2. Armin | SVRP - Platz 2</li>
+            <li>3. Diego | SVRP - Platz 3</li>
+        </ul>
+    </section>
+
+    <section class="container">
+        <h2>Unsere Features</h2>
+        <ul>
+            <li>Realistisches Wirtschaftssystem</li>
+            <li>Jobs und Karrierefortschritt</li>
+            <li>Custom Vehicles und Kleidung</li>
+            <li>Verbrechen und Polizeiarbeit</li>
+        </ul>
+    </section>
+
+    <section class="contact-form container">
+        <h2>Kontaktiere uns</h2>
+        <form action="submit_form.php" method="post">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-Mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="button">Senden</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 SpeedV Roleplay. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
